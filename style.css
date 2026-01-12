@@ -1,15 +1,15 @@
 :root {
     --bg-color: #050508;
     --text-color: #f0f0f5;
-    --primary-color: #bb002f;
-    /* Japan Red */
+    --primary-color: #FFD700;
+    /* Japan Gold */
     --secondary-color: #1a237e;
     /* Navy */
-    --accent-color: #00d4ff;
-    /* Cyber Blue */
+    --accent-color: #FFA000;
+    /* Amber */
     --glass-bg: rgba(255, 255, 255, 0.03);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --gradient-main: linear-gradient(135deg, #bb002f 0%, #1a237e 100%);
+    --gradient-main: linear-gradient(135deg, #FFD700 0%, #FF8F00 50%, #1a237e 100%);
     --font-heading: 'Zen Kaku Gothic New', sans-serif;
     --font-body: 'Noto Sans JP', sans-serif;
 }
@@ -40,10 +40,10 @@ h4 {
 }
 
 h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    background: linear-gradient(to right, #fff, #aaa);
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #fff, #ddd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
